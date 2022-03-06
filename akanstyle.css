@@ -34,9 +34,12 @@ p{
 }
 
 .background img{
-    height: 620px;
+    height: 100vh;
     background-size: cover;
     background-position: center;
     background: repeat;
+    
+}
+.card-body{
     
 }
