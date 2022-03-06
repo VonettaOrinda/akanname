@@ -32,3 +32,8 @@ p{
     top: 30%;
     margin-right: 20%;
 }
+.body img{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
