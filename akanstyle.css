@@ -32,8 +32,11 @@ p{
     top: 30%;
     margin-right: 20%;
 }
-.body img{
-    height: 100vh;
+
+.background img{
+    height: 620px;
     background-size: cover;
     background-position: center;
+    background: repeat;
+    
 }
