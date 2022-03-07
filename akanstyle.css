@@ -50,7 +50,7 @@ form {
 
 legend {
     text-align: center;
-    color: lightsalmon;
+    color: rgb(7, 6, 6);
 }
 
 input[type=number],
