@@ -1,33 +1,4 @@
-function getAkanName( ){
-    let yearofBirth= document.getElementById("year-input").value;
-    let monthofBirth= Number (document.getElementById("month-input").value;
-    let dayOfBith= Number(document.getElementById("day-input").value;
-
-    let genders = document.getElementById("gender");
-
-    //function to get gender
-    function getGender(){
-        for ( let gender of genders){
-            if(gender.checked){
-                return gender.value;
-            }
-        }
-    }
-
-    let myGenderValue = getGender();
-
-    console.log(myGenderValue);
-
-    //month validation functions
-    function monthValidator(){
-        if(monthOfBirth < 1 || monthOfBirth >12{
-            return false;
-        } else{
-            return true;
-        }
-    }
-
-}
+f
 //day validator
 function dayValidator(){
     if (monthOfBirth ===2 && Number(yearofBirth)%4===0)
@@ -65,4 +36,32 @@ function dayValidator(){
       ];
     
     }
+}
+
+//generating and index value to select items on arrays
+let index;
+// fix formula bug
+if (dayOfWeekNumber == 0){
+  index = 6;
+} else {
+  index = dayOfWeekNumber - 1;
+}
+
+console.log(index);
+
+if (myGenderValue == "male" && monthValid && dayValid) {
+  document.getElementById('result').textContent = "You were born on a " + daysOfWeek[index] + " , your Akan name is " + maleAkanNames[index];
+  document.getElementById('display-name').textContent = "Here is your Akan name: ";
+  document.getElementById('result').style.fontSize = "18px";
+  document.querySelector('h1').textContent = "Hello" + " " + maleAkanNames[index];
+  return false;
+} else if (myGenderValue == "female" && monthValid && dayValid) {
+  document.getElementById('result').textContent = "You were born on a " + daysOfWeek[index] + " , your Akan name is " + femaleAkanNames[index];
+  document.getElementById('display-name').textContent = "Here is your Akan name: ";
+  document.getElementById('result').style.fontSize = "18px";
+  document.querySelector('h1').textContent = "Hello" + " " + femaleAkanNames[index];
+  return false;
+} else {
+  alert("You entered an invalid day or month, please try again");
+}
 }
