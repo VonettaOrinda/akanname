@@ -9,7 +9,7 @@ Behaviour Driven Development
 Dialogue box opens, user enters required credentials, output Akan name is displayed.
 
 Set up instructions
-Create an account on Github.Fork the repository from   and clone the link.
+Create an account on Github.Fork the repository from https://vonettaorinda.github.io/akanname/  and clone the link.
 
 Features
 Enter your birthdate, enter your gender and as a result the user will be able to view their respective Akan Name.
