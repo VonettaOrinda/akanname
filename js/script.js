@@ -14,4 +14,17 @@ function getAkanName( ){
         }
     }
 
+    let myGenderValue = getGender();
+
+    console.log(myGenderValue);
+
+    //month validation functions
+    function monthValidator(){
+        if(monthOfBirth < 1 || monthOfBirth >12{
+            return false;
+        } else{
+            return true;
+        }
+    }
+
 }
